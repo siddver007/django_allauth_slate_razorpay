@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Verify</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link rel="stylesheet" href="/static/form/assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/form/assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/static/form/assets/css/form-elements.css">
+        <link rel="stylesheet" href="/static/form/assets/css/style.css">
+
+       
+    </head>
+
+    <body>
+		
+        <!-- Top content -->
+        <div>
+        	
+            <h1 style="left: 50%; top: 50%; color: white; margin-top: -25px; margin-left: -310px; position: absolute;">{{verify_body}}</h1>
+            <h4 style="color:white;">Redirecting in 5 seconds.....</h1>
+            
+        </div>
+
+
+        <!-- Javascript -->
+        <script src="/static/form/assets/js/jquery-1.11.1.min.js"></script>
+        <script src="/static/form/assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/static/form/assets/js/jquery.backstretch.min.js"></script>
+        <script src="/static/form/assets/js/retina-1.1.0.min.js"></script>
+        <script src="/static/form/assets/js/scripts.js"></script>
+        
+        <script type="text/javascript">
+            if ('{{verify_body}}'.toLowerCase().indexOf("problem") >= 0)
+            {
+                setInterval(function() {
+                        location.href = "/";
+                    },5000);
+            }
+            else
+            {
+                setInterval(function() {
+                        location.href = "/post";
+                    },5000);
+            }
+        </script>
+
+    </body>
+
+</html>
