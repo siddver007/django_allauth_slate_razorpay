@@ -37,17 +37,16 @@ You can find more about it here https://django-grappelli.readthedocs.org/en/late
    EMAIL_HOST_USER, EMAIL_HOST_PASSWORD of the SMTP server you have chosen or simply   
    remove all email variables except EMAIL_BACKEND to show test email in cmd/terminal. 
    Also add your RAZOR_KEY_ID and RAZOR_KEY_SECRET after registering at Razorpay.
-4. Now run commands:-
-   a. python manage.py makemigrations registerApp
+4. Now run commands:-  
+   a. python manage.py makemigrations registerApp  
    b. python manage.py syncdb  
-   c. python manage.py collectstatic
+   c. python manage.py collectstatic  
 5. Now run the app by typing in "python manage.py runserver"
 6. Go to "localhost:8000" in your web-browser and this is the user registration page.
 7. You can login using localhost:8000/login
 8. You find other URL-patterns in the urls.py of both project and app.
 
-## NOTE: There might be some issues with the UI Templates and other stuff as well so, you can  
-## open an issue on this repository if you want to ask something from me/ need my help.
+## NOTE: There might be some issues with the UI Templates and other stuff as well so, you can open an issue on this repository if you want to ask something from me/ need my help. 
 
 Cheers
 
