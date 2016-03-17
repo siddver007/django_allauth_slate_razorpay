@@ -19,9 +19,15 @@ You can find more about it here https://razorpay.com/
   
   
   
+  
+  
+          
+  
 ### --------------------------------HOW TO USE----------------------------------  
 ##### Generally I am very fond of giving long "How to use instructions" but  
-  sometimes
+##### sometimes I find it very boring like today :P so I'll keep it short.
+
+
   
   
   
