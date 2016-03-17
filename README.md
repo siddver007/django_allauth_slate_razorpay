@@ -17,9 +17,7 @@ You can find more about it here https://razorpay.com/
 ### Used basic registration bootstrap template from http://azmind.com/  
   
   
-  
-  
-  
+ ---
   
           
   
