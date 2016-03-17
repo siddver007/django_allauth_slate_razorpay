@@ -19,8 +19,8 @@ You can find more about it here https://razorpay.com/
   
   
   
-  ### --------------------------------HOW TO USE----------------------------------  
-  ##### Generally I am very fond of giving long "How to use instructions" but  
+### --------------------------------HOW TO USE----------------------------------  
+##### Generally I am very fond of giving long "How to use instructions" but  
   sometimes
   
   
