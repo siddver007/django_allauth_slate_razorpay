@@ -1,4 +1,4 @@
-# project_django_allauth_slate_razorpay
+# django_allauth_slate_razorpay
 This is a demo django project to show the use of allauth to create and manage authentication. It also uses slate(the famous static api documentation UI) and lastly it uses Razorpay payment gateway integration.  
   
 ### Django allauth  
@@ -19,16 +19,11 @@ It also uses  the django-grappelli package which makes the django admin site loo
 very cool.
 You can find more about it here https://django-grappelli.readthedocs.org/en/latest/  
 
-### Used basic registration bootstrap template from http://azmind.com/  
-  
-  
- ---
+**Used basic registration bootstrap template from http://azmind.com/**   
   
           
   
-###                                                HOW TO USE  
-##### Generally I am very fond of giving long "How to use instructions" but  
-##### sometimes I find it really boring like today :P so I'll keep it short.
+## HOW TO USE  
 
 1. Clone the project or download the zip.
 2. Make a virtual environment( Helps you keep the global system-wide packages  
@@ -46,7 +41,7 @@ You can find more about it here https://django-grappelli.readthedocs.org/en/late
 7. You can login using localhost:8000/login
 8. You find other URL-patterns in the urls.py of both project and app.
 
-## NOTE: There might be some issues with the UI Templates and other stuff as well so, you can open an issue on this repository if you want to ask something from me/ need my help. 
+**NOTE: There might be some issues with the UI Templates and other stuff as well so, you can open an issue on this repository if you want to ask something from me/ need my help.** 
 
 Cheers
 
