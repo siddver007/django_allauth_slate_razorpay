@@ -92,11 +92,11 @@ WSGI_APPLICATION = 'register_Project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': '',
+        'NAME': 'random',
         'USER': '',
         'PASSWORD': '',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': 5432,
     }
 }
 
@@ -148,7 +148,7 @@ EMAIL_HOST_USER = ''
 EMAIL_HOST_PASSWORD = ''
 EMAIL_PORT = 465
 DEFAULT_FROM_EMAIL = 'Example <hello@example.com>'
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # RAZOR PAY SETTINGS
 RAZOR_KEY_ID = ''
